@@ -1,0 +1,20 @@
+
+.o-card{
+	display: flex;
+	&__head{
+		background-color: blue;
+	}
+	&__body{
+		background-color: purple;
+	}
+	&__title{
+
+		&--lg{
+
+		}
+	}
+	&__foot{
+		background-color:red
+	}
+
+}
