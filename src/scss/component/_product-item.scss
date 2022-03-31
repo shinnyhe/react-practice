@@ -1,0 +1,34 @@
+.prod_info {
+  background-color: $pchome-white;
+  a {
+    &:hover {
+      color: $pchome-red;
+      text-decoration: underline;
+    }
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  .prod_name {
+    padding-top: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+    overflow: hidden;
+  }
+  .price_box {
+    li,ul,ol {
+      list-style: none;
+      margin-left: -40px;
+    }
+    color: $pchome-red;
+    font-weight: bold;
+    font-family: $font-family;
+    .price{
+      font-size: 10px;
+    }
+    .value {
+      font-size: 18px;
+      line-height: 1.25;
+    }
+  }
+}

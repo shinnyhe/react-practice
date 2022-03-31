@@ -1,0 +1,18 @@
+// Variables
+$pchome-black: #131111;
+$pchome-white: #fff;
+$pchome-red: #e54040;
+$pchome-green: #005f20;
+$pchome-blue: #070bce;
+
+:root {
+  --background: #fff;
+  --font-color: #494949;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #3c3c3c;
+    --font-color: #fafafa;
+  }
+}

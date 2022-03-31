@@ -1,0 +1,19 @@
+$font-family: verdana,Arial,Helvetica,sans-serif;
+@mixin hide_text{
+	text-indent: 110%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+@mixin font-defaults {
+  font-family: $font-family;
+}
+
+@mixin heading {
+  @include font-defaults;
+
+  font-size: 40px;
+  font-weight: bold;
+}
+
+
